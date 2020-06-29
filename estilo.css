@@ -17,3 +17,23 @@ a{
 .jumbotron{
     padding: 10px;
 }
+
+/* Inicio Estilo Menu */
+.menu{
+    overflow: hidden;
+    background-color: rgb(210, 220, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.menu a {
+    float: left;
+    display: block;
+    color: rgb(32, 31, 31);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    .menu a:hover {
+    color: rgb(32, 31, 31);
+    font-weight: bold;
+    }
+/* Fim Estilo Menu */
