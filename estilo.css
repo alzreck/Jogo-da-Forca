@@ -1,0 +1,19 @@
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    width: 800px;
+    padding: 10px;
+    margin-left: 200px;
+}
+h1{
+    margin-left: 100px;
+    font-weight: bold;
+}
+a{
+    margin-left: 100px;
+}
+
+.jumbotron{
+    padding: 10px;
+}
