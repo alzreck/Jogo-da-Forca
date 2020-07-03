@@ -16,6 +16,68 @@ a{
 
 .jumbotron{
     padding: 10px;
+    bottom:0;
+    position:absolute;
+    width:100%;
+}
+
+.dicacod
+{
+font-family:arial;
+color:rgb(0, 0, 0);
+}
+
+.vidascod
+{
+    font-family:arial;
+color:rgb(0, 0, 0);
+font-size: 30px;
+}
+
+.jogo
+{
+    text-align: center;
+}
+
+.letra
+{
+width:40px;
+height:40px;
+margin:3px;
+background:#7e7575;
+font-size:30px;
+text-align:center;
+font-family:arial;
+}
+
+#centet
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+
+}
+
+#palavratext
+{
+
+background:rgba(255, 255, 255, 0.9);
+display: flex;
+
+}
+
+
+.desabilitado
+{
+opacity:.0;
+}
+
+#palavratext
+{
+margin:20px 0;
+
 }
 
 /* Inicio Estilo Menu */
