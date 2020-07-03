@@ -10,18 +10,31 @@
     </head>
     <body>
         <h1>Jogo da Forca</h1>
-       <!--Inicio do Menu-->
+    <!--Inicio do Menu-->
        <div class="menu">
             <a href="Jogo_da_forca.html">Jogo</a>
             <a href="regras.html">Regras</a>
-        <br><br>
+            <br><br>
         </div>
     <!--Fim do Menu-->
+    <div class = "jogo">
+        <br><br>
+        <h2 class = "dicacod" id = "dicatext"></h2>
 
-        <p>
-            Testes com o Repositorio
-        </p>
+        <div id = "centet">
+            <div id = "palavratext"></div>
+        </div>
+        <br>
+        <input type = "text" maxlength = "1" id = "letratext" placeholder = "digite (uma) letra aqui" />
+        <button id = "verificaresult">Verificar</button>
+        <br><br>
+        <p class = "vidascod" >Tentativas: <span id = "vidas"></span> / 6</p>
+    
+        <button id = "palavrarandom">Nova Palavra</button>
+       
 
+        <script src = "jquery.js"></script>
+    </div>
         <!--Inicio Rodapé-->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -33,6 +46,7 @@
                 </div>
             </div>
         </div>
+        
         <!--Fim Rodapé-->
     </body>
 </html>
