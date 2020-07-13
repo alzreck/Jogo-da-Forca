@@ -7,8 +7,8 @@ var verificaresult = document.querySelector("#verificaresult");
 
 var palavras = 
 [
-    ["teste","É um teste"],
-    ["teste teste","É dois testes"],
+    ["abacaxi","Descascar"],
+    ["Espinho","Torna-se dificil..."],
 ];
 
 var sortp;
