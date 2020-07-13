@@ -8,7 +8,10 @@ var verificaresult = document.querySelector("#verificaresult");
 var palavras = 
 [
     ["abacaxi","Descascar"],
-    ["Espinho","Torna-se dificil..."],
+	["Espinho","Torna-se dificil..."],
+	["fruta","Descascar, espinhos..."],
+	["Goiaba","é feio igual o bichinho..."],
+	["ganso","Feliz, açude..."],
 ];
 
 var sortp;
